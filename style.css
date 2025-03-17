@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-primary: #ff9aba;
+    --color-secondary: #ffdbc5;
+    --color-tertiary: #ff7e01;
+    --color-button: #ffb400;
     --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-text: #000000;
+    --color-white: #000000;
 }
 
 /* Estilos generales */
@@ -37,6 +37,10 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    background-image: url('assets/Sorpresa.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 }
 
 /* Sección de entrada */
