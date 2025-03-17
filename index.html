@@ -20,7 +20,7 @@
         <section class="input-section">
             <h2 class="section-title">Digite el nombre de sus amigos</h2>
             <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
+                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre" oninput="this.value = this.value.replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]/g, '')">
                 <button class="button-add" onclick="agregarAmigo()">Añadir</button>
             </div>
            
@@ -31,6 +31,10 @@
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
                     <img src="assets/play_circle_outline.png" alt="Ícono para sortear">
                     Sortear amigo
+                </button>
+                <!-- Botón para reiniciar el sorteo -->
+                <button class="button-reset" onclick="reiniciarSorteo()" aria-label="Reiniciar sorteo">
+                    Reiniciar Sortear
                 </button>
             </div>
         </section>
