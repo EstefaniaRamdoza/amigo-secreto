@@ -1,5 +1,7 @@
 # Amigo Secreto  
 
+![Imagen sorpresa](assets/Sorpresa.png)
+
 Este proyecto es un juego web que permite agregar nombres a una lista y realizar un sorteo aleatorio de amigos secretos sin repetir nombres.  
 
 ## Funcionalidades  
